@@ -1,30 +1,30 @@
+# Contacts Management System
 
-# Contacts Management System in C
-
-A simple command-line **Contacts Management System** written in C that allows you to store and manage contacts with the following details:
-
-- Name
-- Phone Number
-- Street Address
-- Email Address
-
-Contacts are saved persistently in a file (`contacts.txt`), so they are retained between program runs.
-
----
+A simple command-line contacts management system written in C that allows you to store and manage contact information.
 
 ## Features
 
-- Add new contacts
+- Add new contacts with name, phone number, street address, and email
 - Display all saved contacts
-- Persistent storage using file I/O (`contacts.txt`)
-- Clears the console screen between operations for better user experience
-- Handles up to 100 contacts
+- Persistent storage using text files
+- Cross-platform compatibility (Windows/Linux/macOS)
 
----
+## Contact Structure
 
-## How to Use
+Each contact contains:
+- Name
+- Phone number
+- Street address
+- Email address
 
-1. **Compile the program**
+## Installation & Compilation
 
+### Prerequisites
+- GCC compiler
+- Make (optional)
+
+### Compilation
+
+**Using GCC directly:**
 ```bash
-gcc contacts.c -o contacts
+gcc -o contacts main.c
