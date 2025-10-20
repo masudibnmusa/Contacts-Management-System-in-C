@@ -1,0 +1,6 @@
+contacts-management-system/
+├── main.c
+├── README.md
+├── Makefile
+├── .gitignore
+└── LICENSE
